@@ -1,2 +1,3 @@
 # unrasp_guard
-Anti Tamper Kill Of Our Lovely LolGuard
+
+Anti Tamper & Anti Frida Bypass For Our Lovely LolGuard
