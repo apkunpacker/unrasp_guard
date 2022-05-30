@@ -34,7 +34,7 @@ and we got output as
 ```
 output truncated because list is long
 
-so first out classes.dex is loaded in form on .odex and then lolguard's library. 
+so first our classes.dex is loaded in form on .odex and then lolguard's library. 
 
 lets think in how many way it can check for static Anti Tampering
 1. By opening base.apk and extract meta-inf and compare it . hash or crc whatever 
