@@ -647,6 +647,10 @@ if (Java.available) {
 Now if we installed our modified apk which have libbaseapk.so in its library folder and start with above frida script. it will start fine instead of crashing.
 there are many more hooks available to share but for this i thought sufficient, may be they are for more better packer
 
+Note - Anti-Frida part yet to be written because i can't found any LolGuard apk with frida detection yet . if you found such please share apk or hash on telegram.
+http://t.me/apkunpacker
+
 If You Like it. Consider Buying me a ☕
 
+https://www.paypal.com/paypalme/apkunpacker
 paypal.me/apkunpacker
