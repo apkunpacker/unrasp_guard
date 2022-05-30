@@ -156,7 +156,7 @@ so we need to calculate correct path first .
 as we seen from first linker hook that it loaded base.odex at very first , we can use that path to calculate new path
 
 if this is odex loader path
-/data/app/~~94aZRAHXOJ9Z6tyWBj3tfA==/com.hatunnel.plus-bX8pBJxMKAxXi3GZjy1Zbw==/oat/arm64/base.odex
+/data/app/~~94aZRAHXOJ9Z6tyWBj3tfA==/com.package.apk-random==/oat/arm64/base.odex
 then we can make our new path by removing "oat/arm64/base.odex" from it and adding base.apk. 
 
 now . lets start doing work 
