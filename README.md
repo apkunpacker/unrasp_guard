@@ -647,3 +647,5 @@ if (Java.available) {
 Now if we installed our modified apk which have libbaseapk.so in its library folder and start with above frida script. it will start fine instead of crashing.
 there are many more hooks available to share but for this i thought sufficient, may be they are for more better packer
 
+If You Like it. Consider Buying me a ☕
+paypal.me/apkunpacker
