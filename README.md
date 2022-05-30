@@ -537,7 +537,7 @@ Interceptor.attach(do_dlopen, function() {
     }
 })
 
-function JavaHook(Input) {
+function Hook(Input) {
     var OriginalSign = "3082........";
     Java.performNow(function() {
         try {
