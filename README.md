@@ -635,7 +635,7 @@ if (Java.available) {
         var appsinfo = packageManager.getInstalledPackages(0);
         for (var i = 0; i < appsinfo.size(); i++) {
             var app = Java.cast(appsinfo.get(i), PackageInfo);
-            if (app.packageName.value == pkg) {
+            if (app.packageName.value == packagename ) {
                 app.applicationInfo.value.sourceDir.value = Check;
                 console.log("sourceDir Hooked : ", app.applicationInfo.value.sourceDir.value);
             }
